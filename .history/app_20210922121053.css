@@ -80,10 +80,7 @@ a i {
   color: #fff;
 }
 
-#popup.popup-open{
-  opacity: 1;
-  visibility: visible;
-}
+#
 
 .popup-close {
   position: absolute;

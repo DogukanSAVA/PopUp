@@ -10,7 +10,7 @@ play.addEventListener("click", () => {
 
 });
 
-popup_close.addEventListener("click", () => {
+pl.addEventListener("click", () => {
 
           popup.classList.remove("popup-open");
 

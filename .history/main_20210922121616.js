@@ -2,7 +2,7 @@ const play = document.querySelector(".play");
 
 const popup = document.querySelector("#popup");
 
-const popup_close = document.querySelector(".popup-close")
+const popup = document.querySelector(".close")
 
 play.addEventListener("click", () => {
 
@@ -10,8 +10,8 @@ play.addEventListener("click", () => {
 
 });
 
-popup_close.addEventListener("click", () => {
+play.addEventListener("click", () => {
 
-          popup.classList.remove("popup-open");
+          popup.classList.add("popup-open");
 
 });
